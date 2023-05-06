@@ -1,0 +1,172 @@
+.login{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.login__left{
+    width: 32vw;
+    background-color: var(--darkgreen);
+    height: 100vh;
+}
+
+.login__right{
+    width: 68vw;
+    padding: 19vh 13.6vw 13.2vh 13.6vw;
+}
+
+.login__left__svgs{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 32vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login__form__container{
+    margin: auto;
+    background-color: #EEEFF1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8.78vh 2.7vw 10vh 2.7vw;
+    border-radius: 60px;
+    width: 35vw;
+    height: 70vh;
+    max-width: 578px;
+    max-width: fit-content;
+    box-shadow: 10px 10px 10px 10px rgb(0,0,0,25%);
+}
+
+.login__form__wrapper{
+    height: 43.94vh;
+    padding: 0.53vh 2.3vw 6vh 2.3vw;
+}
+
+.login__form__wrapper>h3{
+    font-size: 4.1vh;
+    font-weight: 400;
+    color: #4A4543;
+}
+
+.login__form__wrapper>p{
+    font-size: 1.5vh;
+    font-weight: 300;
+    color: #4A4543;
+    padding: 0 1%;
+}
+
+.login__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 360px;
+    margin: 3.9vh 0;
+}
+
+.login__form>label{
+    margin-bottom: 1.9vh;
+}
+
+.login__form>label>p{
+    font-size: 1.3vh;
+    color: #4A4543;
+    font-weight: 400;
+    margin-bottom: 0.7vh;
+}
+
+.login__form>label>input[type='email'], .login__form>label>input[type='password']{
+    padding: 13px 16px;
+    border-radius: 8px;
+    width: 25vw;
+    min-height: 5.5vh;
+    font-size: 1.7vh;
+    outline: none;
+    border: 1px solid var(--boxoutline);
+    background: #EEEFF1;
+    max-width: 360px;
+}
+
+.login__form>label>input:active{
+    background: none;
+}
+
+.login__form>label>input[type='checkbox']{
+    cursor: pointer;
+}
+
+.login__form>label[for='checkbox']{
+    display: flex;
+    align-items: center;
+}
+
+.login__form>label[for='checkbox']>span{
+    font-size: 1.3vh;
+    font-weight: 600;
+    margin-left: 0.41vw;
+    margin-bottom: 0.29vh;
+}
+
+.login__submit__button{
+    background-color: var(--darkgreen);
+    color: #ffffff;
+    padding: 1.1vh 0;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    font-size: 1.6vh;
+    cursor: pointer;
+    width: 25vw;
+    max-width: 360px;
+}
+
+.login__form__wrapper>span{
+    display: block;
+    width: 25vw;
+    text-align: center;
+    font-size: 1.3vh;
+    color: var(--darkgreen);
+    max-width: 360px;
+}
+
+/* for left screen */
+
+.login__logo{
+    width: 20.9vw;
+    height: 6.5vh;
+    margin-top: 1.4vh;
+    margin-left: -20px;
+}
+
+.login__dancing{
+    width: 18.1vw;
+    position: absolute;
+    left: -1.5vw;
+    bottom: -2.5vh;
+}
+
+.login__ball{
+    width: 12.8vw;
+    position: absolute;
+    bottom: 0;
+    left: 17.1vw;
+}
+
+.login__arrow{
+    width: 11.3vw;
+    height: 10.6vh;
+    position: absolute;
+    top: 33vh;
+    left: 16.8vw;
+}
+
+/* media queries */
+@media only screen and (min-width: 1700px){
+    .login__submit__button, .login__form>label>input[type='email'], .login__form>label>input[type='password'], .login__form__wrapper>span{
+        max-width: 20vw;
+    }
+}

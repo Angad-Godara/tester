@@ -1,0 +1,44 @@
+.navbar{
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 4.45vh;
+    max-height: 66px;
+    display: flex;
+    align-items: center;
+    padding-right: 8.6vw;
+}
+
+.nav__options{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__options>img{
+    width: 1.1vw;
+    max-width: 18px;
+    max-height: 20px;
+    margin: 0 1.2vw;
+    max-width: 32px;
+}
+
+.nav__red__dot{
+    position: relative;
+    background-color: #E25563;
+    border-radius: 50%;
+    width: 0.57vw;
+    height: 0.57vw;
+    max-height: 8px;
+    max-width: 8px;
+}
+
+.nav__green__dot{
+    position: relative;
+    background-color: #20C997;
+    border-radius: 50%;
+    width: 0.57vw;
+    height: 0.57vw;
+    max-height: 8px;
+    max-width: 8px;
+}

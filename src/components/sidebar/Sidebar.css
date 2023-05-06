@@ -1,0 +1,9 @@
+.sidebar{
+    background-color: #FFFFFF;
+    width: 16.2vw;
+    padding: 0.87vh 1.5vw;
+}
+
+.sidebar>img{
+    width: 12.5vw;
+}
